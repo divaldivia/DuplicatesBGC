@@ -1,12 +1,3 @@
-1114943.8 - Streptomyces tsukubensis AT3 NRRL18488 
-https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=826537
-6666666.104320	Streptomyces tsukubaensis NRRL18488 AJSZ01
-
-1352941.7 - Streptomyces niveus NCIMB 11891
-https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=528637
-287955	6666666.146823	Streptomyces niveus NCIMB 11891 NZ_CM002280.1
-
-
 6666666.146880 - Streptomyces rapamycinicus NRRL 5491 CP006567.1
 https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=288012
 288012	6666666.146880	Streptomyces rapamycinicus NRRL 5491 CP006567.1
@@ -14,3 +5,13 @@ https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=288012
 6666666.113083 - Streptomyces mirabilis JQLE01
 https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=242347
 242347	6666666.113083	Streptomyces mirabilis JQLE01
+
+6666666.102809 - Streptomyces fradiae JNAD01
+https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=218090
+
+
+6666666.104708 - Streptomyces Roseosporus Nrrl 11379 ABYX02
+https://rast.nmpdr.org/rast.cgi?page=JobDetails&job=221075
+
+------
+sed 's/.fig|//g' test | sed 's/.peg//g' | sed 's/6666666/>6666666/g' 
